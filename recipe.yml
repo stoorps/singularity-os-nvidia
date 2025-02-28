@@ -2,7 +2,7 @@ name: SingularityOS Desktop Nvidia
 id: nvidia 
 stages:
 - id: build
-  base: ghcr.io/singularityos-lab/desktop:main 
+  base: ghcr.io/stoorps/desktop:main 
   singlelayer: false
   labels:
     maintainer: self-maintained 
